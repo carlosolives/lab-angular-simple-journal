@@ -1,0 +1,8 @@
+<p>
+  entry-list works!
+</p>
+<div *ngFor="let entrie of entries">
+  <a [routerLink]="['/entrie/', entrie._id]">
+  <p>{{entrie.title}}</p></a>
+
+</div>
